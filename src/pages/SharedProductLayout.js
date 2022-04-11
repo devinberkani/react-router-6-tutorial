@@ -3,7 +3,9 @@ import { Outlet } from 'react-router-dom';
 const SharedProductLayout = () => {
   return (
     <>
-      <h2>products</h2>
+      <div className='section'>
+        <h2>products</h2>
+      </div>
       <Outlet />
     </>
   );

@@ -15,6 +15,7 @@ const Login = ({ setUser }) => {
 
   return (
     <section className='section'>
+      <h2>Login</h2>
       <form className='form' onSubmit={handleSubmit}>
         <h5>login</h5>
         <div className='form-row'>
